@@ -1,0 +1,90 @@
+.wrap {
+  width: 13rem;
+  height: 21.5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border: 1px solid #EEEEEE;
+  border-radius: 10px;
+}
+
+.imageWrap {
+  width: 158px;
+
+  &:hover {
+    transform: scale(0.9);
+    transition: all 0.5s ease;
+  }
+}
+
+.image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+
+  gap: 2rem;
+  margin-top: 0.5rem;
+}
+
+.description {
+  height: 5rem;
+
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+
+  color: #222831;
+  font-size: 1.1rem;
+}
+
+.name {
+  height: 5rem;
+}
+
+.price {
+  display: inline-block;
+  font-weight: 700;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0 3rem;
+}
+
+.icon {
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrap {
+    width: 11rem;
+    max-height: 18rem;
+  }
+
+  .imageWrap {
+    width: 120px;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .info {
+    gap: 1rem;
+  }
+
+  .name {
+    height: 3.5rem;
+  }
+}
