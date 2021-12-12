@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/makeup-store-react/static/css/main.6d084b1b.chunk.css",
-    "main.js": "/makeup-store-react/static/js/main.fb3296ad.chunk.js",
-    "main.js.map": "/makeup-store-react/static/js/main.fb3296ad.chunk.js.map",
+    "main.js": "/makeup-store-react/static/js/main.734386fc.chunk.js",
+    "main.js.map": "/makeup-store-react/static/js/main.734386fc.chunk.js.map",
     "runtime-main.js": "/makeup-store-react/static/js/runtime-main.b3e72e91.js",
     "runtime-main.js.map": "/makeup-store-react/static/js/runtime-main.b3e72e91.js.map",
     "static/js/2.ef77bd28.chunk.js": "/makeup-store-react/static/js/2.ef77bd28.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.b3e72e91.js",
     "static/js/2.ef77bd28.chunk.js",
     "static/css/main.6d084b1b.chunk.css",
-    "static/js/main.fb3296ad.chunk.js"
+    "static/js/main.734386fc.chunk.js"
   ]
 }
